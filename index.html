@@ -6,6 +6,10 @@
     <title>AMP сайт</title>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <link rel="canonical" href="https://visintelens.github.io/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
         *{
@@ -36,7 +40,10 @@
             color: #66697e;
         }
         .head-name{
-                font-family: RalewayRegular;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
         }
         header::before{
             content: '';
@@ -81,7 +88,10 @@
             display: flex;
             column-gap: 60px;
             flex-wrap: nowrap;
-            font-family: RalewayBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
             font-size: 13px;
         }
         .nav-list li{
@@ -97,16 +107,27 @@
         }
         .masthead h1{
             font-size: 65px;
-            font-family: OpenSans-Bold;
+            font-family: "Open Sans", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100
         }
         .masthead p{
             padding-top: 40px;
             font-size: 22px;
-            font-family: RalewayRegular;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
         }
         .masthead button{
             font-size: 13px;
-            font-family: Raleway-SemiBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal
         }
         .btn_more{
             width: 200px;
@@ -150,12 +171,18 @@
         }
         .feature  h2{
             padding-top:35px;
-            font-family: RalewayBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
             font-size: 14px;
         }
         .feature p{
             padding-top:30px;
-            font-family: RalewayRegular;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
             font-size: 14px;
         }
         .works{
@@ -194,11 +221,17 @@
 
         .project_name div h2{
             font-size: 14px;
-            font-family: RalewayBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
         }
         .project_name div p{
             font-size: 14px;
-            font-family: RalewayRegular;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
             padding-top: 15px;
         }
         .team{
@@ -213,7 +246,10 @@
         }
         .team_persona{
             flex: 1 1 25%;
-            font-family: RalewayRegular;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
             padding: 10px;
         }
         .persona_name{
@@ -280,11 +316,16 @@
         }
         .review_title{
             font-size: 36px;
-            font-family: Cardo-Italic;
+            font-family: "Cardo", serif;
+            font-weight: 400;
+            font-style: italic;
             font-weight: normal;
         }
         .review_text{
-            font-family: RalewayBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
             font-size: 13px;
             padding-top: 30px;
         }
@@ -323,17 +364,26 @@
             text-align: center;
             border: none;
             color: #fff;
-            font-family: Raleway-SemiBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
             font-size: 13px;
             background-color: #e84545;
         }
         .download-text{
                 padding-top:10px;
-                font-family: RalewayBold;
+                font-family: "Raleway", serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
                 font-size: 13px;
         }
         .download-title h2{
-            font-family: RalewayLight;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
             font-size: 28px;
             font-weight: normal;
                 
@@ -365,11 +415,17 @@
         }
         .data_organization h1{
             font-size: 14px;
-            font-family: RalewayBold;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
         }
         .data_organization p{
             font-size: 14px;
-            font-family: RalewayRegular;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
         }
         .footer-data span{
             display: block;
@@ -392,10 +448,18 @@
         }
         .footer-rights  span{
             color: #fff;
-            font-family: OpenSans;
+            font-family: "Open Sans", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
         }
         .footer-rights .text{
-            font-family: Raleway;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
             max-width: 320px;
         }
         @media (max-width: 1200px) {
@@ -793,52 +857,6 @@
             }
 
         }
-        @font-face {
-        font-family: "RalewayRegular";  
-        src: url("../fonts/Raleway-Regular.ttf") format("truetype"); 
-        font-style: normal; 
-        font-weight: normal;
-        }
-        
-        @font-face {
-        font-family: "RalewayBold";
-        src: url("../fonts/Raleway-Bold.ttf") format("truetype");
-        }
-
-        @font-face{
-        font-family: 'Raleway SemiBold';
-        font-style: normal;
-        font-weight: 600;
-        src: url('../fonts/Raleway-SemiBold.ttf') format('truetype');
-        }
-        @font-face {
-            font-family: 'OpenSans-Bold';
-            src: url(../fonts/OpenSans-Bold.ttf);
-            font-weight: bold;
-            font-style: normal;
-        }
-
-        @font-face {
-            font-family: 'OpenSans-Bold';
-            src: url(../fonts/OpenSans-Regular.ttf);
-            font-weight: bold;
-            font-style: normal;
-        }
-
-        @font-face {
-        font-family: 'Cardo-Italic';
-        src: url('../fonts/Cardo-Italic.ttf');
-        font-weight: normal;
-        font-style: normal;
-        }
-
-        @font-face{
-        font-family: 'RalewayLight';
-        src: url("../fonts/Raleway-Light.ttf");
-        font-style: normal;
-            font-weight: normal;
-        }
-
     </style>
     </head>
     <body>
